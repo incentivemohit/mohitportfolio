@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
-import { projects } from "../ProjectsApi";
+import {projects} from '../ProjectsApi'
 
 export default function ProjectPage() {
   const { id } = useParams();
   const [projectData, setProjectData] = useState([]);
 
   const load = () => {
-    const data = projects.filter((item) => item.id === id);
+    const data = projects.filter((item) => item.id == id);
     setProjectData(data);
   };
 

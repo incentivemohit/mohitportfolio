@@ -17,9 +17,9 @@ export default function ProjectCard({ projects }) {
                 </div>
                 <div className="flex flex-col gap-3">
                   <p className="text-2xl">{item.projectName}</p>
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-center gap-2">
                     <Link to={`${item.live}`}>
-                      <Button colorScheme="blue" isDisabled={item.status}>
+                      <Button  colorScheme="blue" isDisabled={item.status}>
                         Live
                       </Button>
                     </Link>

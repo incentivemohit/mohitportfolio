@@ -28,7 +28,7 @@ export default function Home() {
             <Projects />
           </div>
         </section>
-        <section className="bg-gray-900 mb-1">
+        <section className="bg-gray-900 mb-1 px-2">
           <Footer />
         </section>
       </main>

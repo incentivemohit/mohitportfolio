@@ -11,8 +11,8 @@ export default function Education() {
           <div className="h-42  lg:h-52 w-72">
             <ImageComponent photo="/assets/images/ambedkar.jpeg" />
           </div>
-          <div className="w-full">
-            <p className="md:text-2xl">
+          <div className="w-full text-sm">
+            <p className="t md:text-2xl">
               Ambedkar Institute of Advanced Communication Technologies and
               Research
             </p>
@@ -26,7 +26,7 @@ export default function Education() {
           <div className="h-42  lg:h-52 w-72">
             <ImageComponent photo="/assets/images/pusa.jpg" />
           </div>
-          <div className="w-full">
+          <div className="w-full text-sm">
             <p className="md:text-2xl">
              Pusa Institute Of Technology
             </p>
