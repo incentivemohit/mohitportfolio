@@ -8,7 +8,7 @@ export default function Experience() {
       <Card className="md:w-5/6 my-2 mx-auto">
         <CardBody className=" md:flex gap-2 lg:flex flex-row">
           <div className="w-full h-60 lg:h-52 w-2/5">
-            <ImageComponent photo="/assets/images/niit.jpg" />
+            <ImageComponent photo="https://s3images.zee5.com/wp-content/uploads/2022/02/NIIT_-_Logo2022021610443620220216104914.jpg" />
           </div>
           <div>
             <p className="text-2xl">Software Developer Trainee</p>

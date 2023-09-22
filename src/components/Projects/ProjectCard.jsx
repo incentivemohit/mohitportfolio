@@ -7,10 +7,10 @@ import ProductsModal from "./Modal";
 export default function ProjectCard({ projects }) {
   return (
     <>
-      <div className="md:flex items-center gap-3">
+      
         {projects.map((item) => {
           return (
-            <Card key={item.id} className="lg:w-80">
+            <Card key={item.id} className="m-2 lg:w-80">
               <CardBody className="flex flex-col gap-2">
                 <div className="lg:w-full h-36">
                   <ImageComponent photo={`${item.projectImage}`} />
@@ -33,7 +33,7 @@ export default function ProjectCard({ projects }) {
             </Card>
           );
         })}
-      </div>
+     
     </>
   );
 }

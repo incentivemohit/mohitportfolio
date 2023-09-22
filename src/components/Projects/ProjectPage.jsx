@@ -26,8 +26,8 @@ export default function ProjectPage() {
         );
       })}
 
-      <div className="w-full flex justify-center items-center bg-slate-100 py-4">
-        <div className="w-5/6">
+      <div className="w-full  bg-slate-100 py-4 ">
+        <div className="w-5/6 mx-auto  lg:flex justify-center gap-3">
           {projectData.map((items) => {
             return <ProjectCard projects={items.projectsList} />;
           })}

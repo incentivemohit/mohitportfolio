@@ -1,11 +1,11 @@
 export const projects=[{
     id:1,
     title:"React",
-    Image:"/assets/images/react.jpg",
+    Image:"https://wallpapercave.com/dwp1x/wp4923992.png",
     projectsList:[{
         id:1,
         projectName:"Weather App",
-        projectImage:"/assets/images/react.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp4923992.png",
         technologies:["React","Tailwind CSS","Weather API","Material UI"],
         live:"https://www.google.com",
         status:true,
@@ -14,7 +14,7 @@ export const projects=[{
     },{
         id:2,
         projectName:"Blog App",
-        projectImage:"/assets/images/react.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp4923992.png",
         technologies:["React","Tailwind CSS","News API"],
         live:"https://www.google.com",
         status:true,
@@ -23,7 +23,7 @@ export const projects=[{
     },{
         id:3,
         projectName:"Notes App",
-        projectImage:"/assets/images/react.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp4923992.png",
         technologies:["React","Tailwind CSS","News API"],
         live:"https://www.google.com",
         status:true,
@@ -35,11 +35,11 @@ export const projects=[{
 {
     id:2,
     title:"Javascript",
-    Image:"/assets/images/javascript.jpg",
+    Image:"https://wallpapercave.com/dwp1x/wp11723487.jpg",
     projectsList:[{
         id:2,
         projectName:"Color Picker",
-        projectImage:"/assets/images/javascript.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp11723487.jpg",
         technologies:["HTML5","CSS3","Javascript"],
         live:"https://www.google.com",
         status:false,
@@ -49,11 +49,11 @@ export const projects=[{
 {
     id:3,
     title:"Python",
-    Image:"/assets/images/python.jpg",
+    Image:"https://wallpapercave.com/dwp1x/wp9890991.jpg",
     projectsList:[{
         id:2,
         projectName:"Color Picker",
-        projectImage:"/assets/images/javascript.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp11723487.jpg",
         technologies:["HTML5","CSS3","Javascript"],
         live:"https://www.google.com",
         status:false,
@@ -63,11 +63,11 @@ export const projects=[{
 {
     id:4,
     title:"Java",
-    Image:"/assets/images/java.jpg",
+    Image:"https://wallpapercave.com/dwp1x/wp9922666.jpg",
     projectsList:[{
         id:2,
         projectName:"Color Picker",
-        projectImage:"/assets/images/javascript.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp11723487.jpg",
         technologies:["HTML5","CSS3","Javascript"],
         live:"https://www.google.com",
         status:false,
@@ -76,11 +76,11 @@ export const projects=[{
 },{
     id:5,
     title:"React Native",
-    Image:"/assets/images/react-native.png",
+    Image:"https://wallpapercave.com/dwp1x/wp6953020.jpg",
     projectsList:[{
         id:2,
         projectName:"Color Picker",
-        projectImage:"/assets/images/javascript.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp11723487.jpg",
         technologies:["HTML5","CSS3","Javascript"],
         live:"https://www.google.com",
         status:false,
@@ -90,11 +90,11 @@ export const projects=[{
 {
     id:6,
     title:"MERN",
-    Image:"/assets/images/mern.jpg",
+    Image:"https://wallpapercave.com/dwp1x/wp8903936.jpg",
     projectsList:[{
         id:2,
         projectName:"Color Picker",
-        projectImage:"/assets/images/javascript.jpg",
+        projectImage:"https://wallpapercave.com/dwp1x/wp11723487.jpg",
         technologies:["HTML5","CSS3","Javascript"],
         live:"https://www.google.com",
         status:false,
